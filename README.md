@@ -9,7 +9,7 @@ After running my analysis it was very easy to see that the stock market overall 
 ## Summary
 
 ### Pros and Cons
-Refactoring the original code had a significant effect on the speed at which the subroutine completed. The timing reports before refactoring can be viewed in these links. [2017](Stock_Analysis_Visual_Aids/nonrefactored2017.png) [2018](Stock_Analysis_Visual_Aids/nonrefactored2018.png)
+Refactoring the original code had a significant effect on the speed at which the subroutine completed. The timing reports before refactoring can be viewed in these links. ( [2017](Stock_Analysis_Visual_Aids/nonrefactored2017.png) [2018](Stock_Analysis_Visual_Aids/nonrefactored2018.png) )
 The refactored code works more than six times faster than the original due to the addition of this piece of code that completed all my analysis in one loop rather than running one loop for each company. 
 ```
     tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(j, 8).Value
